@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.pixeldust.ota.xml;
+package org.descendant.ota.xml;
 
 import android.util.Xml;
 

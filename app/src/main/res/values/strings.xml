@@ -18,8 +18,8 @@
 <resources>
 
     <!-- App -->
-    <string name="app_name">Pixel Dust updates</string>
-    <string name="app_title">Pixel Dust updates</string>
+    <string name="app_name">Descendant Updates</string>
+    <string name="app_title">Descendant Updates</string>
 
     <!-- Categories -->
     <string name="ota_category">OTA</string>
@@ -50,8 +50,8 @@
     <!-- Notification -->
     <string name="notification_title">Hey, a new update is here!</string>
     <string name="notification_message">A new version is available!</string>
-    <string name="pixeldust_channel">Pixel Dust OTA notifications</string>
-    <string name="pixeldust_channel_description">Notifications about new Pixel Dust ROM updates</string>
+    <string name="descendant_channel">Descendant OTA notifications</string>
+    <string name="descendant_channel_description">Notifications about new Descendant ROM updates</string>
 
     <!-- Dialog -->
     <string name="dialog_message">Checking for ROM updates, please wait…</string>

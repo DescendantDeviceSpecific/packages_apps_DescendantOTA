@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.pixeldust.ota.dialogs;
+package org.descendant.ota.dialogs;
 
 import android.app.Activity;
 import android.app.Fragment;

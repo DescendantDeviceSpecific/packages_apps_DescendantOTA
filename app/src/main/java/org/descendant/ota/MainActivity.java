@@ -14,31 +14,31 @@
  * limitations under the License.
  */
 
-package com.pixeldust.ota;
+package org.descendant.ota;
 
 import android.app.Fragment;
 import android.os.Bundle;
 import android.preference.PreferenceActivity;
 import android.view.MenuItem;
 
-import com.pixeldust.ota.configs.LinkConfig;
-import com.pixeldust.ota.dialogs.WaitDialogFragment;
-import com.pixeldust.ota.fragments.PixeldustOTAFragment;
+import org.descendant.ota.configs.LinkConfig;
+import org.descendant.ota.dialogs.WaitDialogFragment;
+import org.descendant.ota.fragments.DescendantOTAFragment;
 
 public class MainActivity extends PreferenceActivity implements
         WaitDialogFragment.OTADialogListener, LinkConfig.LinkConfigListener {
 
-    private static final String FRAGMENT_TAG = PixeldustOTAFragment.class.getName();
-    private PixeldustOTAFragment mFragment;
+    private static final String FRAGMENT_TAG = DescendantOTAFragment.class.getName();
+    private DescendantOTAFragment mFragment;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        mFragment = (PixeldustOTAFragment) getFragmentManager().findFragmentByTag(FRAGMENT_TAG);
+        mFragment = (DescendantOTAFragment) getFragmentManager().findFragmentByTag(FRAGMENT_TAG);
         if (mFragment == null) {
             getFragmentManager().beginTransaction()
-                    .replace(android.R.id.content, new PixeldustOTAFragment(), FRAGMENT_TAG)
+                    .replace(android.R.id.content, new DescendantOTAFragment(), FRAGMENT_TAG)
                     .commit();
         }
 

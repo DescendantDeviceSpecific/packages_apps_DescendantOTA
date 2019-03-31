@@ -1,4 +1,4 @@
-package com.pixeldust.ota;
+package org.descendant.ota;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;

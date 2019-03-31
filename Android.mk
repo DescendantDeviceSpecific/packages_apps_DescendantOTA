@@ -1,12 +1,12 @@
 LOCAL_PATH:= $(call my-dir)
 include $(CLEAR_VARS)
 
-ifneq ($(ANDROID_BUILD_TOP),)
-    $(shell cp -u $(ANDROID_BUILD_TOP)/vendor/pixeldust/ota/ota_conf $(LOCAL_PATH)/app/src/main/assets/)
+ifneq (.,)
+    $(shell cp -u vendor/descendant/ota/ota_conf $(LOCAL_PATH)/app/src/main/assets/)
 endif
 
 LOCAL_MODULE_TAGS := optional
-LOCAL_PACKAGE_NAME := PixelDustOTA
+LOCAL_PACKAGE_NAME := DescendantOTA
 LOCAL_PRIVATE_PLATFORM_APIS := true
 LOCAL_CERTIFICATE := platform
 LOCAL_PRIVILEGED_MODULE := true

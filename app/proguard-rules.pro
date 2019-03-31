@@ -16,4 +16,4 @@
 #   public *;
 #}
 
--keep class com.pixeldust.ota.core.OTAListener
+-keep class org.descendant.ota.core.OTAListener

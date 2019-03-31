@@ -1,6 +1,6 @@
-SlimOTA
+DescendantOTA
 -------
-A very simple OTA checker with Android Settings look and feel.
+A very simple OTA checker by SlimROMs with Android Settings look and feel.
 
 How it works
 ------------

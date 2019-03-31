@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package com.pixeldust.ota.configs;
+package org.descendant.ota.configs;
 
 import android.content.Context;
 
-import com.pixeldust.ota.xml.OTALink;
-import com.pixeldust.ota.xml.OTAParser;
-import com.pixeldust.ota.utils.OTAUtils;
+import org.descendant.ota.xml.OTALink;
+import org.descendant.ota.xml.OTAParser;
+import org.descendant.ota.utils.OTAUtils;
 
 import org.json.JSONArray;
 import org.json.JSONException;

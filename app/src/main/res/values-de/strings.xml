@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-  ~ Copyright (C) 2018 The Pixel Dust Project
+  ~ Copyright (C) 2018 The Descendant Project
   ~
   ~ Licensed under the Apache License, Version 2.0 (the "License");
   ~ you may not use this file except in compliance with the License.
@@ -18,8 +18,8 @@
 <resources>
 
     <!-- App -->
-    <string name="app_name">Pixel Dust Updates</string>
-    <string name="app_title">Pixel Dust Updates</string>
+    <string name="app_name">Descendant Updates</string>
+    <string name="app_title">Descendant Updates</string>
 
     <!-- Categories -->
     <string name="ota_category">OTA</string>
@@ -51,8 +51,8 @@
     <!-- Notification -->
     <string name="notification_title">Hey, es gibt ein Update!</string>
     <string name="notification_message">Eine neue Version ist da!</string>
-    <string name="pixeldust_channel">Pixel Dust OTA Benachrichtigungen</string>
-    <string name="pixeldust_channel_description">Benachrichtigungen über neue Versionen von Pixel Dust</string>
+    <string name="descendant_channel">Descendant OTA Benachrichtigungen</string>
+    <string name="descendant_channel_description">Benachrichtigungen über neue Versionen von Descendant</string>
 
     <!-- Dialog -->
     <string name="dialog_message">Überprüfe auf neue ROM Version, bitte warten…</string>
@@ -64,7 +64,7 @@
     <string name="links_rom_title">ROM</string>
     <string name="links_rom_summary">Die neueste Version für Ihr Gerät herunterladen</string>
     <string name="links_romirror_title">XDA Thread</string>
-    <string name="links_romirror_summary">Pixel Dust Feedback und Support</string>
+    <string name="links_romirror_summary">Descendant Feedback und Support</string>
     <string name="links_changelog_title">Changelog</string>
     <string name="links_changelog_summary">Die letzten Änderungen anschauen</string>
     <string name="links_donation_title">Spende</string>

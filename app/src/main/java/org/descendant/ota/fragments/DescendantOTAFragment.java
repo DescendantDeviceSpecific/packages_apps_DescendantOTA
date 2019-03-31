@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.pixeldust.ota.fragments;
+package org.descendant.ota.fragments;
 
 import android.content.SharedPreferences;
 import android.os.AsyncTask;
@@ -25,18 +25,18 @@ import android.preference.PreferenceCategory;
 import android.preference.PreferenceFragment;
 import android.preference.PreferenceScreen;
 
-import com.pixeldust.ota.R;
-import com.pixeldust.ota.configs.AppConfig;
-import com.pixeldust.ota.configs.LinkConfig;
-import com.pixeldust.ota.configs.OTAVersion;
-import com.pixeldust.ota.dialogs.WaitDialogFragment;
-import com.pixeldust.ota.tasks.CheckUpdateTask;
-import com.pixeldust.ota.utils.OTAUtils;
-import com.pixeldust.ota.xml.OTALink;
+import org.descendant.ota.R;
+import org.descendant.ota.configs.AppConfig;
+import org.descendant.ota.configs.LinkConfig;
+import org.descendant.ota.configs.OTAVersion;
+import org.descendant.ota.dialogs.WaitDialogFragment;
+import org.descendant.ota.tasks.CheckUpdateTask;
+import org.descendant.ota.utils.OTAUtils;
+import org.descendant.ota.xml.OTALink;
 
 import java.util.List;
 
-public class PixeldustOTAFragment extends PreferenceFragment implements
+public class DescendantOTAFragment extends PreferenceFragment implements
         Preference.OnPreferenceChangeListener,
         SharedPreferences.OnSharedPreferenceChangeListener ,
         WaitDialogFragment.OTADialogListener,
@@ -59,7 +59,7 @@ public class PixeldustOTAFragment extends PreferenceFragment implements
         super.onCreate(savedInstanceState);
         setRetainInstance(true);
 
-        addPreferencesFromResource(R.xml.pixeldust_ota);
+        addPreferencesFromResource(R.xml.descendant_ota);
 
         mRomInfo = (PreferenceScreen) getPreferenceScreen().findPreference(KEY_ROM_INFO);
         mCheckUpdate = (PreferenceScreen) getPreferenceScreen().findPreference(KEY_CHECK_UPDATE);

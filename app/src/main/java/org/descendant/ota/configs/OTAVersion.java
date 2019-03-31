@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package com.pixeldust.ota.configs;
+package org.descendant.ota.configs;
 
 import android.content.Context;
 
-import com.pixeldust.ota.utils.OTAUtils;
+import org.descendant.ota.utils.OTAUtils;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;

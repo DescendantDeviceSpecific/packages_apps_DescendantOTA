@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.pixeldust.ota.utils;
+package org.descendant.ota.utils;
 
 import android.content.Context;
 import android.content.Intent;
@@ -23,8 +23,8 @@ import android.net.Uri;
 import android.util.Log;
 import android.widget.Toast;
 
-import com.pixeldust.ota.configs.OTAConfig;
-import com.pixeldust.ota.R;
+import org.descendant.ota.configs.OTAConfig;
+import org.descendant.ota.R;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -38,7 +38,7 @@ import java.util.Properties;
 
 public final class OTAUtils {
 
-    private static final String TAG = "PixeldustOTA";
+    private static final String TAG = "DescendantOTA";
     private static final boolean DEBUG = true;
 
     private OTAUtils() {

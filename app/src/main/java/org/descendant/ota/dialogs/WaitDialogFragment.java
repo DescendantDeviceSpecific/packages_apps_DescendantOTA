@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.pixeldust.ota.dialogs;
+package org.descendant.ota.dialogs;
 
 import android.app.Dialog;
 import android.app.DialogFragment;
@@ -22,7 +22,7 @@ import android.app.ProgressDialog;
 import android.content.DialogInterface;
 import android.os.Bundle;
 
-import com.pixeldust.ota.R;
+import org.descendant.ota.R;
 
 public class WaitDialogFragment extends DialogFragment {
 

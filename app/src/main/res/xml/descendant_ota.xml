@@ -28,11 +28,13 @@
 
         <PreferenceScreen
             android:key="key_check_update"
-            android:title="@string/check_update_title">
+            android:title="@string/check_update_title"
+            android:icon="@drawable/ic_check_update">
         </PreferenceScreen>
 
         <ListPreference
             android:key="key_update_interval"
+            android:icon="@drawable/ic_update_interval"
             android:title="@string/interval_title"
             android:dialogTitle="@string/interval_title"
             android:entries="@array/interval_entries"

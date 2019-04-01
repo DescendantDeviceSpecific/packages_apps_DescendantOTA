@@ -95,18 +95,22 @@ public class DescendantOTAFragment extends PreferenceFragment implements
                 case "rom":
                     linkPref.setTitle(getActivity().getResources().getString(R.string.links_rom_title));
                     linkPref.setSummary(getActivity().getResources().getString(R.string.links_rom_summary));
+                    linkPref.setIcon(R.drawable.ic_rom);
                     break;
                 case "romirror":
                     linkPref.setTitle(getActivity().getResources().getString(R.string.links_romirror_title));
                     linkPref.setSummary(getActivity().getResources().getString(R.string.links_romirror_summary));
+                    linkPref.setIcon(R.drawable.ic_mirror);
                     break;
                 case "changelogs":
                     linkPref.setTitle(getActivity().getResources().getString(R.string.links_changelog_title));
                     linkPref.setSummary(getActivity().getResources().getString(R.string.links_changelog_summary));
+                    linkPref.setIcon(R.drawable.ic_rom);
                     break;
                 case "donation":
                     linkPref.setTitle(getActivity().getResources().getString(R.string.links_donation_title));
                     linkPref.setSummary(getActivity().getResources().getString(R.string.links_donation_summary));
+                    linkPref.setIcon(R.drawable.ic_donation);
                     break;
                 default:
                     linkPref.setTitle(title.isEmpty() ? id : title);
@@ -122,7 +126,7 @@ public class DescendantOTAFragment extends PreferenceFragment implements
             String fullLocalVersion = OTAVersion.getFullLocalVersion(getActivity());
             String shortLocalVersion = OTAVersion.extractVersionFrom(fullLocalVersion, getActivity());
             mRomInfo.setTitle(fullLocalVersion);
-
+            mRomInfo.setIcon(R.drawable.ic_rom_info);
             String prefix = getActivity().getResources().getString(R.string.latest_version);
             String fullLatestVersion = AppConfig.getFullLatestVersion(getActivity());
             String shortLatestVersion = OTAVersion.extractVersionFrom(fullLatestVersion, getActivity());
